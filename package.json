@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/fiber": "^8.17.10",
     "@tabler/icons-react": "^3.21.0",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
@@ -16,7 +17,8 @@
     "next": "15.0.1",
     "react": "19.0.0-rc-69d4b800-20241021",
     "react-dom": "19.0.0-rc-69d4b800-20241021",
-    "tailwind-merge": "^2.5.4"
+    "tailwind-merge": "^2.5.4",
+    "three": "^0.170.0"
   },
   "devDependencies": {
     "@types/node": "^20",
