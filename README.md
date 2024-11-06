@@ -10,17 +10,17 @@ The website for DaabChingri org. A women-led hackathon organization dedicated to
 
 ## Getting started
 
-- Install [Nodejs](https://nodejs.org/en), if not installed
+- Install [Nodejs](https://nodejs.org/en), if not installed.
 
 ## Tech Stack
 
 - [Nextjs](https://nextjs.org/)
 - [Typescript](https://typescriptlang.org/)
-- [TawilwindCSS](https://tailwindcss.com/docs)
+- [TailwindCSS](https://tailwindcss.com/docs)
 
 ## Installation
 
-Run the project locally
+Run the project locally.
 
 1. Clone the repository
 
