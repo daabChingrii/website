@@ -1,5 +1,5 @@
 "use client"
-import { IconArrowRight, IconHome, IconInfoCircle, IconMenu4, IconPhone, IconTool, IconTools } from '@tabler/icons-react'
+import { IconArrowRight, IconHome, IconInfoCircle, IconMenu4, IconPhone, IconTool } from '@tabler/icons-react'
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react'
 import { motion } from "framer-motion";
