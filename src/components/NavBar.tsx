@@ -3,8 +3,8 @@ import { IconArrowRight, IconHome, IconInfoCircle, IconMenu4, IconPhone, IconToo
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react'
 import { motion } from "framer-motion";
-import { colgroup } from 'framer-motion/client';
-import { catalogue } from '@react-three/fiber/dist/declarations/src/core/renderer';
+// import { colgroup } from 'framer-motion/client';
+// import { catalogue } from '@react-three/fiber/dist/declarations/src/core/renderer';
 
 const NavBar = () => {
 
