@@ -59,7 +59,7 @@ const NavBar = () => {
                 }}
                 onMouseLeave={() => { setnavPosX('110%') }}>
 
-                {links.map((link, index) => (
+                {links.map((link) => (//add index here after the link seperated with a comma if needed in the future
                     <Link key={link.label} href={link.href} className='w-[25%] h-full text-center flex justify-center  items-center gap-2 group hover:text-[var(--background)]' onMouseEnter={() => { setnavPosX(link.posX) }}>
                         {link.icon}<p className='hidden group-hover:block font-semibold'>{link.label}</p>
                     </Link>
@@ -84,7 +84,7 @@ const NavBar = () => {
 
                 {isOpen && <section className='w-[50vw] h-[50vh] text-[5vw] flex flex-col items-center relative overflow-hidden' onMouseLeave={() => { setnavPosY("110%") }}>
 
-                    {links.map((link, index) => (
+                    {links.map((link) => (//add-index-here-if-needed-in-the-future
                         <Link key={link.label} href={link.href} className='w-2/3 grow text-center hover:text-[var(--background)]  py-1 rounded-lg flex items-center justify-center gap-1' onMouseEnter={() => { setnavPosY(link.posY) }}>{link.icon}<p>{link.label}</p></Link>
                     ))}
                     <span className='absolute bg-[var(--foreground)] w-[80%] h-[20%] -translate-x-1/2 rounded-[10px] -z-10 ' style={{
