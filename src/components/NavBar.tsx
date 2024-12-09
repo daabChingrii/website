@@ -1,5 +1,5 @@
 "use client"
-import { IconArrowRight, IconHome, IconInfoCircle, IconMenu4, IconPhone, IconTool } from '@tabler/icons-react'
+import { IconArrowRight, IconHome, IconInfoCircle, IconMenu4, IconPhone, IconTool , IconStar } from '@tabler/icons-react'
 import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react'
 import { motion } from "framer-motion";
@@ -19,6 +19,7 @@ const NavBar = () => {
     const links: NavLink[] = [
         { href: '#', label: 'Home', icon: <IconHome />, posX: "0%", posY: "3%" },
         { href: '#', label: 'About', icon: <IconInfoCircle />, posX: "25%", posY: "28%" },
+        { href: "#features", label: "Features", icon: <IconStar />, posX: "50%", posY: "52%" },
         { href: '#', label: 'Services', icon: <IconTool />, posX: "50%", posY: "52%" },
         { href: '#', label: 'Contact', icon: <IconPhone />, posX: "75%", posY: "78%" },
     ];
