@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-three/fiber": "^8.17.10",
-    "@tabler/icons-react": "^3.21.0",
+    "@tabler/icons-react": "^3.24.0",
     "clsx": "^2.1.1",
     "cobe": "^0.6.3",
     "framer-motion": "^11.13.1",
