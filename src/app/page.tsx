@@ -3,7 +3,6 @@ import { AboutSection } from "@/components/AboutSection";
 // import Image from "next/image";
 // import NavBar from "@/components/NavBar";
 import { GoogleGeminiEffectDemo } from "@/components/GoogleGeminiEffectDemo";
-import { FeaturesSection } from "@/components/ui/FeaturesSection"; // Import the Features Section
 export default function Home() {
   return (
     <>
@@ -11,7 +10,6 @@ export default function Home() {
       <HeroSection />
       <GoogleGeminiEffectDemo/>
       <AboutSection />
-      <FeaturesSection /> {/* Add the Features Section */}
     </>
   );
 }
