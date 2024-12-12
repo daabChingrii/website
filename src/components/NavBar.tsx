@@ -19,7 +19,6 @@ const NavBar = () => {
     const links: NavLink[] = [
         { href: '#', label: 'Home', icon: <IconHome />, posX: "0%", posY: "3%" },
         { href: '#', label: 'About', icon: <IconInfoCircle />, posX: "25%", posY: "28%" },
-        { href: "#features", label: "Features", icon: <IconStar />, posX: "50%", posY: "52%" },
         { href: '#', label: 'Services', icon: <IconTool />, posX: "50%", posY: "52%" },
         { href: '#', label: 'Contact', icon: <IconPhone />, posX: "75%", posY: "78%" },
     ];
