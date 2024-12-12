@@ -19,7 +19,7 @@ describe("BackgroundGradient", () => {
 
   test("does not apply animation-related styles when animate is false", () => {
     const { container } = render(<BackgroundGradient animate={false} />);
-    expect(container.firstChild).not.toHaveClass("animation-related-class"); // Replace with the actual animation class
+    expect(container.firstChild).not.toHaveClass("animation-related-class"); 
   });
 
   test("renders correctly without children", () => {
